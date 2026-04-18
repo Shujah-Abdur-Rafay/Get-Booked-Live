@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /dashboard
+Disallow: /settings
+Disallow: /admin
+Disallow: /offer-flow
+Disallow: /tour-management
+Disallow: /pipeline
+Disallow: /tax-dashboard
+Disallow: /insights
+
+Sitemap: https://getbooked.live/sitemap.xml

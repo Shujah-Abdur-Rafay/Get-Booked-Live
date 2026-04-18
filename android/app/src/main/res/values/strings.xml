@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">getbookedlive</string>
+    <string name="title_activity_main">getbookedlive</string>
+    <string name="package_name">app.lovable.project0902a9e4ec944a5780dcdc150e29c6b0</string>
+    <string name="custom_url_scheme">app.lovable.project0902a9e4ec944a5780dcdc150e29c6b0</string>
+</resources>

@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "browse": "explorar",
+    "trending": "tendências",
+    "pricing": "preços",
+    "dashboard": "painel",
+    "pipeline": "pipeline",
+    "tax": "impostos",
+    "tours": "turnês",
+    "signIn": "entrar",
+    "signOut": "sair",
+    "startFree": "comece grátis"
+  },
+  "landing": {
+    "hero": "Contrate talentos ao vivo sem complicação",
+    "heroSub": "O sistema operacional da música ao vivo. Conecte artistas, promotores, venues e equipes — tudo em um só lugar.",
+    "cta": "Comece grátis",
+    "ctaSecondary": "Explorar artistas",
+    "howItWorks": "Como funciona",
+    "step1Title": "Crie seu perfil",
+    "step1Desc": "Configure seu EPK, faixa de cachê e disponibilidade em minutos.",
+    "step2Title": "Envie ou receba propostas",
+    "step2Desc": "Promotores enviam propostas estruturadas. Artistas aceitam, contrapropõem ou recusam.",
+    "step3Title": "Confirme e apresente",
+    "step3Desc": "Contratos, marcos e pagamentos — gerenciados automaticamente.",
+    "forArtists": "Para artistas",
+    "forPromoters": "Para promotores",
+    "forVenues": "Para venues"
+  },
+  "auth": {
+    "signIn": "Entrar",
+    "signUp": "Criar conta",
+    "email": "E-mail",
+    "password": "Senha",
+    "displayName": "Nome",
+    "forgotPassword": "Esqueceu sua senha?",
+    "noAccount": "Não tem conta?",
+    "hasAccount": "Já tem conta?",
+    "resetPassword": "Redefinir senha",
+    "checkEmail": "Verifique seu e-mail para o link de redefinição."
+  },
+  "dashboard": {
+    "welcome": "Bem-vindo de volta",
+    "offers": "Propostas",
+    "bookings": "Reservas",
+    "earnings": "Ganhos",
+    "noOffers": "Sem propostas ainda",
+    "viewAll": "Ver tudo",
+    "accept": "Aceitar",
+    "decline": "Recusar",
+    "counter": "Contraproposta"
+  },
+  "common": {
+    "loading": "Carregando...",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "back": "Voltar",
+    "next": "Próximo",
+    "submit": "Enviar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "noResults": "Nenhum resultado encontrado"
+  }
+}

@@ -1,0 +1,1 @@
+ALTER TABLE public.profiles ADD COLUMN IF NOT EXISTS onboarding_steps jsonb DEFAULT '{"complete_profile": false, "set_fee_range": false, "mark_available_dates": false, "share_epk": false, "receive_first_offer": false}'::jsonb;

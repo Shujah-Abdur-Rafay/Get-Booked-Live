@@ -1,0 +1,2 @@
+ALTER TABLE public.profiles 
+ADD COLUMN IF NOT EXISTS email_preferences jsonb NOT NULL DEFAULT '{"offer_received": true, "offer_accepted": true, "offer_declined": true, "booking_confirmed": true, "new_message": false}'::jsonb;

@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "browse": "browse",
+    "trending": "trending",
+    "pricing": "pricing",
+    "dashboard": "dashboard",
+    "pipeline": "pipeline",
+    "tax": "tax",
+    "tours": "tours",
+    "signIn": "sign in",
+    "signOut": "sign out",
+    "startFree": "start free"
+  },
+  "landing": {
+    "hero": "Book live talent without the back-and-forth",
+    "heroSub": "The operating system for live music. Connect artists, promoters, venues, and crews — all in one place.",
+    "cta": "Get started free",
+    "ctaSecondary": "Browse artists",
+    "howItWorks": "How it works",
+    "step1Title": "Create your profile",
+    "step1Desc": "Set up your EPK, fee range, and availability in minutes.",
+    "step2Title": "Send or receive offers",
+    "step2Desc": "Promoters send structured offers. Artists accept, counter, or decline.",
+    "step3Title": "Confirm and perform",
+    "step3Desc": "Contracts, milestones, and payments — handled automatically.",
+    "forArtists": "For artists",
+    "forPromoters": "For promoters",
+    "forVenues": "For venues"
+  },
+  "auth": {
+    "signIn": "Sign in",
+    "signUp": "Create account",
+    "email": "Email",
+    "password": "Password",
+    "displayName": "Display name",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "resetPassword": "Reset password",
+    "checkEmail": "Check your email for a reset link."
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "offers": "Offers",
+    "bookings": "Bookings",
+    "earnings": "Earnings",
+    "noOffers": "No offers yet",
+    "viewAll": "View all",
+    "accept": "Accept",
+    "decline": "Decline",
+    "counter": "Counter"
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "search": "Search",
+    "filter": "Filter",
+    "noResults": "No results found"
+  }
+}

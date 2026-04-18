@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "browse": "explorar",
+    "trending": "tendencias",
+    "pricing": "precios",
+    "dashboard": "panel",
+    "pipeline": "pipeline",
+    "tax": "impuestos",
+    "tours": "giras",
+    "signIn": "iniciar sesión",
+    "signOut": "cerrar sesión",
+    "startFree": "empieza gratis"
+  },
+  "landing": {
+    "hero": "Contrata talento en vivo sin complicaciones",
+    "heroSub": "El sistema operativo de la música en vivo. Conecta artistas, promotores, venues y equipos — todo en un solo lugar.",
+    "cta": "Empieza gratis",
+    "ctaSecondary": "Explorar artistas",
+    "howItWorks": "Cómo funciona",
+    "step1Title": "Crea tu perfil",
+    "step1Desc": "Configura tu EPK, rango de tarifas y disponibilidad en minutos.",
+    "step2Title": "Envía o recibe ofertas",
+    "step2Desc": "Los promotores envían ofertas estructuradas. Los artistas aceptan, contraofrecen o rechazan.",
+    "step3Title": "Confirma y presenta",
+    "step3Desc": "Contratos, hitos y pagos — gestionados automáticamente.",
+    "forArtists": "Para artistas",
+    "forPromoters": "Para promotores",
+    "forVenues": "Para venues"
+  },
+  "auth": {
+    "signIn": "Iniciar sesión",
+    "signUp": "Crear cuenta",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "displayName": "Nombre",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "noAccount": "¿No tienes cuenta?",
+    "hasAccount": "¿Ya tienes cuenta?",
+    "resetPassword": "Restablecer contraseña",
+    "checkEmail": "Revisa tu correo para el enlace de restablecimiento."
+  },
+  "dashboard": {
+    "welcome": "Bienvenido de nuevo",
+    "offers": "Ofertas",
+    "bookings": "Reservas",
+    "earnings": "Ganancias",
+    "noOffers": "Sin ofertas aún",
+    "viewAll": "Ver todo",
+    "accept": "Aceptar",
+    "decline": "Rechazar",
+    "counter": "Contraofertar"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "submit": "Enviar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "noResults": "Sin resultados"
+  }
+}
