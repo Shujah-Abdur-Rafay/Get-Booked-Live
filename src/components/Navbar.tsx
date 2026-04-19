@@ -10,7 +10,6 @@ import {
 } from "lucide-react";
 const logoColor = "/logo-color.png";
 import { useState, useEffect, useCallback, useRef } from "react";
-import { supabase } from "@/integrations/supabase/client";
 import { useTranslation } from "react-i18next";
 import {
   DropdownMenu,
@@ -98,7 +97,6 @@ export default function Navbar() {
   const navigate = useNavigate();
   const location = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
-  const [unreadCount, setUnreadCount] = useState(0);
   const [signupOpen, setSignupOpen] = useState(false);
   const { t, i18n } = useTranslation();
 
@@ -115,21 +113,6 @@ export default function Navbar() {
     return () => document.removeEventListener("keydown", h);
   }, []);
 
-  // ── Notification unread count + realtime ────────────
-  useEffect(() => {
-    if (!user) { setUnreadCount(0); return; }
-    const fetchUnread = async () => {
-      const { count } = await supabase
-        .from("notifications")
-        .select("*", { count: "exact", head: true })
-        .eq("user_id", user.id)
-        .eq("read", false);
-      setUnreadCount(count ?? 0);
-    };
-    fetchUnread();
-    const interval = window.setInterval(fetchUnread, 15000);
-    return () => { window.clearInterval(interval); };
-  }, [user]);
 
   const closeMenu = useCallback(() => setMenuOpen(false), []);
   const role = profile?.role;
