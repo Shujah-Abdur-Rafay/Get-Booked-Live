@@ -200,17 +200,6 @@ export default function Navbar() {
               </Link>
             )}
 
-            {/* Artist: availability calendar icon */}
-            {user && role === "artist" && !isAdmin && (
-              <button
-                onClick={() => navigate("/dashboard")}
-                className="text-muted-foreground hover:text-foreground transition-colors p-2 rounded-lg hover:bg-secondary/50"
-                aria-label="Availability calendar"
-              >
-                <Calendar className="w-4 h-4" />
-              </button>
-            )}
-
             {/* Language selector (logged out only) */}
             {!user && (
               <LanguageSelector currentLang={i18n.language} onChange={(l) => i18n.changeLanguage(l)} />
@@ -230,9 +219,6 @@ export default function Navbar() {
 
             {user ? (
               <>
-                {/* Notification bell */}
-                <NotificationBell count={unreadCount} onClick={() => navigate("/notifications")} />
-
                 {/* Avatar dropdown */}
                 <ProfileDropdown
                   profile={profile}
@@ -259,7 +245,6 @@ export default function Navbar() {
 
           {/* ── Mobile right ─────────────────────────── */}
           <div className="flex md:hidden items-center gap-1">
-            {user && <NotificationBell count={unreadCount} onClick={() => navigate("/notifications")} />}
             <button
               className="text-foreground p-2 active:scale-[0.95] transition-transform"
               onClick={() => setMenuOpen(!menuOpen)}
