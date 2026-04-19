@@ -5,7 +5,7 @@ import SignupModal from "@/components/SignupModal";
 import { Button } from "@/components/ui/button";
 import {
   Menu, X, Bell, Globe, ShieldCheck, Settings, Calendar,
-  Plus, Copy, Check, HelpCircle, LogOut, User, CreditCard,
+  Plus, Copy, Check, LogOut, User, CreditCard,
   ArrowLeft,
 } from "lucide-react";
 const logoColor = "/logo-color.png";
@@ -478,10 +478,6 @@ function ProfileDropdown({
           </>
         )}
         <DropdownMenuSeparator />
-        <DropdownMenuItem onClick={() => navigate("/help")}>
-          <HelpCircle className="w-3.5 h-3.5 mr-2" />
-          Help
-        </DropdownMenuItem>
         <DropdownMenuItem onClick={onSignOut} className="text-destructive focus:text-destructive">
           <LogOut className="w-3.5 h-3.5 mr-2" />
           Sign out

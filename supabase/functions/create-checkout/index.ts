@@ -65,7 +65,7 @@ serve(async (req) => {
       customerId = customers.data[0].id;
     }
 
-    const origin = req.headers.get("origin") || "https://getbookedlive.lovable.app";
+    const origin = req.headers.get("origin") || "https://getbooked.live";
 
     // Create Stripe Checkout session
     const session = await stripe.checkout.sessions.create({
